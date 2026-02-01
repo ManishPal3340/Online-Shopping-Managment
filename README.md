@@ -25,35 +25,7 @@ The project demonstrates how an e-commerce system works internally, including:
 - JPA Annotations
 
 ---
-### OnlineShoppingSystem
-│
-├── src/main/java
-│ └── com.shopingsystem
-│ ├── app
-│ │ └── App.java
-│ ├── config
-│ │ └── HibernateConfig.java
-│ ├── dao
-│ │ ├── UserDAO.java
-│ │ ├── ProductDAO.java
-│ │ ├── OrderDAO.java
-│ │ ├── OrderDetailDAO.java
-│ │ └── PaymentDAO.java
-│ ├── model
-│ │ ├── User.java
-│ │ ├── Product.java
-│ │ ├── Order.java
-│ │ ├── OrderDetail.java
-│ │ └── Payment.java
-│ └── service
-│ ├── UserService.java
-│ ├── ProductService.java
-│ ├── OrderService.java
-│ ├── OrderDetailService.java
-│ └── PaymentService.java
-│
-├── pom.xml
-└── README.md
+
 
 
 
@@ -201,4 +173,33 @@ Manish
 
 
 ## 📂 Project Structure
+## OnlineShoppingSystem
+│
+├── src/main/java
+│ └── com.shopingsystem
+│ ├── app
+│ │ └── App.java
+│ ├── config
+│ │ └── HibernateConfig.java
+│ ├── dao
+│ │ ├── UserDAO.java
+│ │ ├── ProductDAO.java
+│ │ ├── OrderDAO.java
+│ │ ├── OrderDetailDAO.java
+│ │ └── PaymentDAO.java
+│ ├── model
+│ │ ├── User.java
+│ │ ├── Product.java
+│ │ ├── Order.java
+│ │ ├── OrderDetail.java
+│ │ └── Payment.java
+│ └── service
+│ ├── UserService.java
+│ ├── ProductService.java
+│ ├── OrderService.java
+│ ├── OrderDetailService.java
+│ └── PaymentService.java
+│
+├── pom.xml
+└── README.md
 
